@@ -10,5 +10,4 @@ void PrintNumberstoN (int n)
 if (n < 1) return;
 Console.Write(n + " ");
 PrintNumberstoN (n-1); // чтобы выводилось в другом порядке надо поменять местами последние 2 строчки
-
 }
